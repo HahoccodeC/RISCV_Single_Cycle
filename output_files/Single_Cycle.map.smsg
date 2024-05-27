@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at ALU.v(22): always construct contains both blocking and non-blocking assignments File: D:/TKS/RISCV-SingleCycle/ALU.v Line: 22

@@ -1,0 +1,9 @@
+module Adder  #(
+    parameter PC_WIDTH = 32
+) (
+	input      [PC_WIDTH:0] inA,
+	input      [PC_WIDTH:0] inB,
+	output reg [PC_WIDTH:0] sum 
+	);
+assign sum = inA + inB ; 
+endmodule

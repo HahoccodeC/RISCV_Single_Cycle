@@ -1,0 +1,5 @@
+module PC_add4 (
+	input [31:0] fromPC,
+    output reg [31:0] nexttoPC
+	);
+assign nexttoPC = fromPC + 32'h00000004;
